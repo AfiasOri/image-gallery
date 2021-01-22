@@ -13,12 +13,19 @@ const getDate = fileName => {
 };
 
 fs.readdir(dir, (err, files) => {
-	const data = files.map(file => ({ src: file, id: file, alt: file, date: getDate(file) }));
-	console.log(data);
+	const imports = files.map(file => `import img${file.slice(0, -4)} from './assets/${file}';`);
+	const exportArray = files.map(file => ({
+		src: `img${file.slice(0, -4)}`,
+		id: file,
+		alt: getDate(file),
+		date: getDate(file),
+	}));
+
 	fs.writeFile(
 		dataFilePath,
-		`export const images = [${data.map(
-			({ src, alt, id, date }) => `{ src: '${src}', alt:'${alt}', id:'${id}', date: '${date}'}`
+		`${imports.join('\n')}
+		export const imageData = [${exportArray.map(
+			({ src, alt, id, date }) => `{ src: ${src}, alt:'${alt}', id:'${id}', date: '${date}'}`
 		)}];`,
 		null,
 		err => {
@@ -26,5 +33,3 @@ fs.readdir(dir, (err, files) => {
 		}
 	);
 });
-
-getDate('20190813_211802');

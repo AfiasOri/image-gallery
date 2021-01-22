@@ -2,10 +2,6 @@ import React from 'react';
 
 import { StyledImage } from './Image.styles';
 
-export const Image = ({ src, alt }) => {
-	const source = require(`../../assets/${src}`);
-	console.log(`../../assets/${src}`);
-	return <StyledImage src={require(`../../assets/${src}`)} alt={alt} />;
-};
+export const Image = ({ src, alt, date, onClick }) => <StyledImage src={src} alt={alt} onClick={onClick} />;
 
 export default Image;

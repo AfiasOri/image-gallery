@@ -4,10 +4,15 @@ export const StyledImage = styled.img`
 	z-index: 1;
 	grid-column: span 2;
 	max-width: 100%;
+	height: 500px;
+	width: 500px;
 	margin-bottom: -52%;
 	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 	transform: scale(1);
 	transition: all 0.25s;
+
+	object-fit: cover;
+	cursor: pointer;
 
 	&:nth-child(7n + 1) {
 		grid-column: 2 / span 2;
@@ -15,6 +20,6 @@ export const StyledImage = styled.img`
 
 	&:hover {
 		z-index: 2;
-		transform: scale(2);
+		transform: scale(1.5);
 	}
 `;

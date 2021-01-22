@@ -1,10 +1,10 @@
 import React from 'react';
-import { images } from './data';
+import { imageData } from './data';
 import './App.css';
 import { Gallery } from './components';
 
 function App() {
-	return <Gallery images={images} />;
+	return <Gallery images={imageData} />;
 }
 
 export default App;
