@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/image-gallery/static/css/main.ee20fc26.chunk.css",
+    "main.js": "/image-gallery/static/js/main.27110054.chunk.js",
+    "main.js.map": "/image-gallery/static/js/main.27110054.chunk.js.map",
+    "runtime-main.js": "/image-gallery/static/js/runtime-main.842e2889.js",
+    "runtime-main.js.map": "/image-gallery/static/js/runtime-main.842e2889.js.map",
+    "static/js/2.5df54639.chunk.js": "/image-gallery/static/js/2.5df54639.chunk.js",
+    "static/js/2.5df54639.chunk.js.map": "/image-gallery/static/js/2.5df54639.chunk.js.map",
+    "index.html": "/image-gallery/index.html",
+    "static/css/main.ee20fc26.chunk.css.map": "/image-gallery/static/css/main.ee20fc26.chunk.css.map",
+    "static/js/2.5df54639.chunk.js.LICENSE.txt": "/image-gallery/static/js/2.5df54639.chunk.js.LICENSE.txt",
+    "static/media/20190813_211802.jpg": "/image-gallery/static/media/20190813_211802.8bac677b.jpg",
+    "static/media/20190813_211808.jpg": "/image-gallery/static/media/20190813_211808.c4acfff0.jpg",
+    "static/media/20190813_212126.jpg": "/image-gallery/static/media/20190813_212126.42151101.jpg",
+    "static/media/20190813_212149.jpg": "/image-gallery/static/media/20190813_212149.adee5274.jpg",
+    "static/media/20190813_212150.jpg": "/image-gallery/static/media/20190813_212150.a75933fb.jpg",
+    "static/media/20190814_140230.jpg": "/image-gallery/static/media/20190814_140230.63321ed9.jpg",
+    "static/media/20190814_145919.jpg": "/image-gallery/static/media/20190814_145919.2c8f8eec.jpg",
+    "static/media/20190814_145940.jpg": "/image-gallery/static/media/20190814_145940.acb64e20.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.842e2889.js",
+    "static/js/2.5df54639.chunk.js",
+    "static/css/main.ee20fc26.chunk.css",
+    "static/js/main.27110054.chunk.js"
+  ]
+}
